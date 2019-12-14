@@ -1,0 +1,89 @@
+body {
+	font-family: Roboto;
+}
+h2 {
+	font-weight: bold;
+	font-size: 30pt;
+}
+.left {
+	background: url("../images/adrien-olichon-G57hY5cjCzo-unsplash.jpg") rgba(20, 83, 116, 0.7);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.left-color {
+	background-color: rgba(20, 83, 116, 0.7);
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.right {
+	color: red;
+	text-align: center;
+	height: 100vh;
+}
+.iflab-logo {
+	position: absolute;
+	right: 2rem;
+	top: 2rem;
+}
+.login-content {
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 30%;
+}
+.form-control {
+	margin-top: 2rem;
+	text-align: center;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 1px solid #00334E;
+}
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label {
+	position: absolute;
+	margin-top: -2rem;
+	margin-left: 42%;
+}
+input[type="checkbox"] + label {
+	background: url("../images/visible.png") no-repeat;
+	display:inline-block;
+    padding: 0 0 0 0px;
+    height: 1.7rem;
+    width: 1.7rem;
+    background-size: 100%;
+}
+input[type="checkbox"]:checked + label {
+	background: url("../images/invisible.png") no-repeat;
+	display:inline-block;
+    padding: 0 0 0 0px;
+    height: 1.7rem;
+    width: 1.7rem;
+    background-size: 100%;
+}
+a#forgot-password {
+	float: right;
+	color: black;
+	font-size: 10pt;
+}
+button.btn {
+	margin-top: 3rem;
+	background: #E8E8E8;
+	border: 2px solid #145374;
+	box-sizing: border-box;
+	border-radius: 32px;
+	font-weight: bold;
+	color: #145374;
+	width: 50%;
+	transition: 0.1 ease;
+}
+button.btn:hover {
+	background: #145374;
+	color: white;
+	transition: 0.1 ease;
+}
